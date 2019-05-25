@@ -2,8 +2,8 @@ module Main where
 
 import Lib
 
-a :: Int
-a = 10
+helloWorld :: IO ()
+helloWorld = putStrLn "Hello World"
 
 main :: IO ()
-main = someFunc
+main = helloWorld
